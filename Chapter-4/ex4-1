@@ -32,7 +32,7 @@ int main()
     cout << "value of p_k after delete operation: " << *p_k << endl;
     cout << "address of p_k after delete operation: " << p_k << endl;
 
-    //the program only released the memory of the inteager
+    //the program only released the memory of the integer
     //but the pointer created for the integer is still there
 
     p_k = nullptr;
